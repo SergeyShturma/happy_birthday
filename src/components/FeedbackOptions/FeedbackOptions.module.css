@@ -1,5 +1,5 @@
 .button {
-  width: 103px;
+  min-width: 105px;
   height: 30px;
   font-size: 15px;
   cursor: pointer;
@@ -17,12 +17,18 @@
 
 .options {
   display: flex;
-  gap: 17px;
+  gap: 15px;
   justify-content: center;
+  align-items: center;
   padding: 10px 30px;
   margin: 30px auto;
   margin-top: 10px;
-  width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .options {
+    flex-direction: column;
+  }
 }
 
 .title {
