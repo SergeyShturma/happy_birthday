@@ -1,0 +1,31 @@
+.button {
+  width: 103px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgb(168, 179, 179);
+  text-transform: capitalize;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+  font-size: 18px;
+  transform: scale(1.2);
+  background-color: rgb(172, 240, 218);
+}
+
+.options {
+  display: flex;
+  gap: 17px;
+  justify-content: center;
+  padding: 10px 30px;
+  margin: 30px auto;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 30px;
+}
